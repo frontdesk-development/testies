@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testies
+  description: 123?
+  annotations: 
+    github.com/project-slug: frontdesk-development/testies
+    backstage.io/github-actions-id: frontdesk-development/testies
+spec:
+  type: service
+  lifecycle: experimental
+  owner: perry.manuk@trivago.com
